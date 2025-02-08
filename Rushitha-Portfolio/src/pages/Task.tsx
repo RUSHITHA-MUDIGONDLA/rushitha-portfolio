@@ -4,7 +4,7 @@ export default function Task() {
     <form className="form">
       <label className="label">
         Task:
-        <textarea rows={1} cols={15}></textarea>
+        <textarea rows={1} cols={30}></textarea>
       </label>
       <label>
         ETA:

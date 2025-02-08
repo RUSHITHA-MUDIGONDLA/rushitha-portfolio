@@ -3,9 +3,8 @@
     width: 25%;
     border-radius: 10px 100px / 120px;
     border: black;
-    border-inline: 1rem solid;
-writing-mode: horizontal-tb;
-direction: ltr;
+    writing-mode: horizontal-tb;
+    direction: ltr;
 }
 
 .form {
@@ -21,6 +20,6 @@ direction: ltr;
 {
     border:none;
     outline: none;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid black;
 }
 
