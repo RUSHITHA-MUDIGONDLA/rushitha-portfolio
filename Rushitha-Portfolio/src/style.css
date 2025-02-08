@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+
+.nav a {
+text-decoration: inherit;
+color: inherit;
+height: 100%;
+display: flex;
+padding: .25rem;
+align-items: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+} 
+
+.sprint-title {
+    font-size: 2rem;
+}
+
+.nav li.active {
+    background-color: darkgrey;
+}
+
+.nav li:hover {
+    background-color: lightyellow;
+}
+
+.container {
+    text-align: center;
+}
+

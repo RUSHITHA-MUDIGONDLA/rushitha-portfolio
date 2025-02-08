@@ -1,0 +1,26 @@
+.taskContainer {
+    display: block;
+    width: 25%;
+    border-radius: 10px 100px / 120px;
+    border: black;
+    border-inline: 1rem solid;
+writing-mode: horizontal-tb;
+direction: ltr;
+}
+
+.form {
+    display: block;
+}
+.form label {
+    display: block;
+    padding-top: 0.50rem;
+    padding-bottom: 0.5rem
+}
+
+.label textarea
+{
+    border:none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+}
+
